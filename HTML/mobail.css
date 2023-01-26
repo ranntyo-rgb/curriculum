@@ -1,0 +1,23 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+ }
+
+ @media screen and (max-width: 479px) {
+
+.header{
+    width: 150px;
+}
+    
+.main {
+    width: 150px;
+}
+
+.footer{
+    width: 150px;
+   
+
+}
+
+}

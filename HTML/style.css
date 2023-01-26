@@ -1,0 +1,71 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+ }
+
+
+.header{
+    width: 400px;
+    height: 100px;
+    background-color: #141f40;
+}
+
+.left{
+    width: 150px;
+    height: 250px;
+    background-color: aquamarine;
+    float: left;
+
+}
+
+.right{
+    width: 250px;
+    height: 250px;
+    float: left;
+
+}
+
+.yellowblue{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.yellow{
+    width: 150px;
+    height: 50px;
+    background-color: yellow;
+    float: left;
+}
+
+.blue{
+    width: 150px;
+    height: 100px;
+    background-color: blue;
+    float: left;
+}
+
+.usupink{
+    width: 100px;
+    height: 150px;
+    background-color: darksalmon;
+    float: left;
+}
+
+.red{
+    width: 250px;
+    height: 100px;
+    background-color:  red;
+    float: left;
+}
+
+ 
+.footer{
+    width: 400px;
+    height: 100px;
+    background-color: orange;
+    float: left;
+
+}
+
